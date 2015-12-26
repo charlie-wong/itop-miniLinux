@@ -11,7 +11,7 @@ echo ""
 
 while true
 do
-	read -p " which one?(Enter to quit)" todo
+	read -p " which one?(Enter to quit, 6 => w&r)" todo
 	todo=${todo:=7}
 	
 	case ${todo} in
